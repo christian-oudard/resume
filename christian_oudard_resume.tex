@@ -1,0 +1,159 @@
+% Christian Oudard's Resume
+% Adapted from: http://www.mcnabbs.org/andrew/linux/latexres/
+
+\documentclass[11pt,oneside]{article}
+
+\hyphenpenalty=300
+
+\usepackage{xltxtra,fontspec,xunicode}
+\defaultfontfeatures{Scale=MatchLowercase}
+\setmainfont{Volkhov}
+\setsansfont{Istok Web}
+
+\usepackage{geometry}
+
+\pagestyle{empty}
+\geometry{
+    letterpaper,
+    tmargin=1in,
+    bmargin=1in,
+    lmargin=1in,
+    rmargin=1in,
+    headheight=0in,
+    headsep=0in,
+    footskip=.3in,
+}
+\setlength{\parindent}{0in}
+\setlength{\parskip}{0in}
+\setlength{\itemsep}{0in}
+\setlength{\topsep}{0in}
+%\setlength{\tabcolsep}{0in}
+\setlength{\tabcolsep}{5pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% New commands and environments
+
+% A ressection is a main section (<H1>Section</H1>)
+\newenvironment{ressection}[1]{
+    \textrm{\Large#1}
+    \begin{itemize}
+}{
+    \end{itemize}
+}
+
+% A resitem is a simple list element in a ressection (first level)
+\newcommand{\resitem}[1]{
+    \item \begin{flushleft} \textsf{#1} \end{flushleft}
+}
+
+% A ressubitem is a simple list element in anything but a ressection (second level)
+\newcommand{\ressubitem}[1]{
+    \item \begin{flushleft} \textsf{#1} \end{flushleft}
+}
+
+% A resbigitem is a complex list element for stuff like jobs and education:
+%  Arg 1: Name of company or university
+%  Arg 2: Location
+%  Arg 3: Title and/or date range
+\newcommand{\resbigitem}[3]{
+    \item
+    \textrm{#1}
+    \hspace{5pt}
+    \textit{#2}
+    \hfill
+    \textit{#3}
+}
+
+% This is a list that comes with a resbigitem
+\newenvironment{ressubsec}[3]{
+    \resbigitem{#1}{#2}{#3}
+    \begin{itemize}
+}{
+    \end{itemize}
+}
+
+% This is a simple sublist
+\newenvironment{reslist}[1]{
+    \resitem{\textsf{#1}}
+    \begin{itemize}
+}{
+    \end{itemize}
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Now for the actual document:
+
+\begin{document}
+
+% Name
+\begin{center}
+    \textrm{\Huge Christian Oudard} \\
+    \vspace{4pt}
+    \textsf{
+        christian.oudard@gmail.com \\
+        http://github.com/christian-oudard/
+    }
+\end{center}
+\vspace{8pt} 
+
+\textrm{\Large Summary}\par
+\vspace{8pt}
+\textsf{Computer systems generalist with 10 years experience, and numerous personal software projects. Competent in many areas, including web development, systems design, graphics, and game development. Very quick learner, and an excellent communicator and teacher.}
+\vspace{12pt}
+
+\begin{ressection}{Experience}
+
+    \begin{ressubsec}{TinyCo}{Senior Backend Engineer}{September 2012\textendash Present}
+        \ressubitem{Coded complete rewrites of several major systems, such as the code deployment system and game configuration server.}
+        \ressubitem{Interviewed 6 new employees, while the team size grew from 3 to 8.}
+        \ressubitem{Mentored junior backend engineers and client engineers, especially in Python and Django.}
+        \ressubitem{Created a unittest suite for the Python code base, with continuous integration server.}
+        \ressubitem{Instituted the usage of better database migration practices.}
+    \end{ressubsec}
+
+    \begin{ressubsec}{Scribd}{Software Engineer}{January 2012\textendash August 2012}
+        \ressubitem{Worked as a Ruby on Rails and Javascript engineer on a team of 12.}
+        \ressubitem{Worked with a huge mysql database. We ran out of 32-bit unsigned primary keys on one of our tables.}
+        \ressubitem{Responsibilities included the Scribd Developer API, internal mobile client API, and the embedded document viewer.}
+    \end{ressubsec}
+
+    \begin{ressubsec}{PolicyStat}{Software Engineer}{October 2008\textendash January 2012}
+        \ressubitem{Joined at a very early stage, when there was just the CTO, the CEO, and a single customer. When I left, we had over a hundred hospitals as customers.}
+        \ressubitem{Did full-stack development, including server administration on Amazon AWS, Django backend, and web frontend using jQuery and CSS}
+        \ressubitem{With the CTO, completely rewrote the code base from PHP to Python/Django.}
+        \ressubitem{Developed an algorithm for diffing structured documents in HTML.}
+    \end{ressubsec}
+
+\end{ressection}
+
+\begin{ressection}{Skills}
+    \resitem{
+        \textrm{Languages:}
+        Python,
+        Ruby,
+        JavaScript,
+        HTML,
+        CSS,
+        C++,
+        Shell Script
+    }
+
+    \resitem{
+        \textrm{Libraries:}
+        Django,
+        Ruby on Rails,
+        jQuery
+    }
+
+    \resitem{
+        \textrm{Software:}
+        Linux,
+        Git,
+        Amazon Web Services (AWS)
+    }
+\end{ressection}
+
+
+\end{document}
