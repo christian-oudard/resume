@@ -27,13 +27,8 @@
 \setlength{\parskip}{0in}
 \setlength{\itemsep}{0in}
 \setlength{\topsep}{0in}
-%\setlength{\tabcolsep}{0in}
 \setlength{\tabcolsep}{5pt}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% New commands and environments
-
-% A ressection is a main section (<H1>Section</H1>)
 \newenvironment{ressection}[1]{
     \textrm{\Large#1}
     \begin{itemize}
@@ -41,20 +36,14 @@
     \end{itemize}
 }
 
-% A resitem is a simple list element in a ressection (first level)
 \newcommand{\resitem}[1]{
     \item \begin{flushleft} \textsf{#1} \end{flushleft}
 }
 
-% A ressubitem is a simple list element in anything but a ressection (second level)
 \newcommand{\ressubitem}[1]{
     \item \begin{flushleft} \textsf{#1} \end{flushleft}
 }
 
-% A resbigitem is a complex list element for stuff like jobs and education:
-%  Arg 1: Name of company or university
-%  Arg 2: Location
-%  Arg 3: Title and/or date range
 \newcommand{\resbigitem}[3]{
     \item
     \textrm{#1}
@@ -64,7 +53,6 @@
     \textit{#3}
 }
 
-% This is a list that comes with a resbigitem
 \newenvironment{ressubsec}[3]{
     \resbigitem{#1}{#2}{#3}
     \begin{itemize}
@@ -72,7 +60,6 @@
     \end{itemize}
 }
 
-% This is a simple sublist
 \newenvironment{reslist}[1]{
     \resitem{\textsf{#1}}
     \begin{itemize}
@@ -80,10 +67,7 @@
     \end{itemize}
 }
 
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Now for the actual document:
 
 \begin{document}
 
@@ -100,23 +84,27 @@
 
 \textrm{\Large Summary}\par
 \vspace{8pt}
-\textsf{I solve business problems by creating clear understanding, and turning that understanding into software. I'm a computer systems generalist with over 10 years of experience, and numerous personal software projects. Competent in many technical areas, including full stack web development, databases, and algorithms. I believe that teaching and learning should be a core part of any software team. Outside of software, talk to me about math, linguistics, biomechanics, and neuroscience.}
+\textsf{I solve business problems by creating clear understanding, and turning that understanding into software. I'm a computer systems generalist with over 10 years of experience, and numerous personal software projects. My areas of interest include full stack web development, databases, data analysis, and machine learning. I care deeply about communicating empathetically, in a way that respects the humanity of those I work with. Outside of software, let's talk about math, philosophy, linguistics, biomechanics, or neuroscience.}
 
 \vspace{12pt}
 
 \begin{ressection}{Experience}
 
+    \begin{ressubsec}{Disqus}{Data Engineer}{June 2016\textendash December 2016}
+        \ressubitem{Part of a three-person team responsible for a data analysis pipeline handling tens of millions of events per day. The pipeline is built using Kafka, Storm, S3, Hive, and Redshift.}
+        \ressubitem{Backend feature development in Python, including work on advertisement serving.}
+    \end{ressubsec}
+
     \begin{ressubsec}{Infer inc.}{Full-stack Engineer}{July 2015\textendash September 2015}
-        \ressubitem{Worked on an internal product for managing machine learning models.}
+        \ressubitem{Worked on Infer's main product which manages machine learning sales models.}
         \ressubitem{Coded improvements to the CoffeeScript frontend interface as well as the Python backend.}
     \end{ressubsec}
 
     \begin{ressubsec}{TinyCo}{Backend Engineer}{September 2012\textendash January 2014}
         \ressubitem{Coded complete rewrites of several major systems, such as the code deployment system and game configuration server.}
         \ressubitem{Interviewed new employees to help grow the team from 3 to 8.}
-        \ressubitem{Mentored junior backend engineers and client engineers, especially in Python and Django.}
-        \ressubitem{Created a unittest suite for the Python code base, with continuous integration server.}
-        \ressubitem{Instituted the usage of better database migration practices.}
+        \ressubitem{Mentored junior backend engineers and mobile engineers, especially in Python and Django.}
+        \ressubitem{Instituted the usage of better database migration practices, and better unit testing.}
     \end{ressubsec}
 
     \begin{ressubsec}{Scribd}{Software Engineer}{January 2012\textendash August 2012}
@@ -143,8 +131,6 @@
         JavaScript,
         HTML,
         CSS,
-        C++,
-        Java,
         Shell Script
     }
 
