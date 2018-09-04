@@ -1,10 +1,11 @@
 = Work history
 
-March 13th 2017 - Present
+March 13th 2017 - October 2017
 Bonsai AI
 Engineer
 2150 Shattuck Ave #1100, Berkeley, CA 94704
 Supervisor: Matthew Haigh, Julian Ostrow
+References: Tod Frye
 
 May 23rd 2016 - December 12th 2016
 Disqus
@@ -15,35 +16,25 @@ references:
 adam@disqus.com
 jason@disqus.com
 phillip@disqus.com
-Disqus laid off 11 of 50 employees on 12/12, including myself, due to financial reasons, not for performance.
 
-July ? 2015 - September ? 2015
+July 2015 - September 2015
 Infer inc.
 Engineer
 444 Castro Street, Ste. 109
 Mountain View, CA 94041
 Supervisor: Richard Mehlinger
 
-September 10th 2012 - January ? 2014
+September 10th 2012 - January 2014
 Senior Backend Engineer
 TinyCo
 225 Bush Street, 19th floor
 San Francisco, CA 94104
-Interviewed 6 new employees, while the team size grew from 3 to 8.
-Mentored junior backend engineers and client engineers, especially in Python and Django.
-Coded complete rewrites of several major systems, including the code deployment system and game configuration server.
-Created a unittest suite on the python code base, with continuous integration server.
-Instituted the usage of better database migration practices.
 
 January 2012 - August 2012
 Engineer
 Scribd Inc.
 539 Bryant St, Suite 200
 San Francisco, CA 94107
-Worked as a full stack engineer on a team of 12.
-Focused on Javascript and CSS frontend work while ramping up on Ruby on Rails.
-Worked with a huge mysql database. We ran out of 32-bit unsigned primary keys on one of our tables.
-Responsibilities included the Scribd Developer API, internal mobile client API, and the embedded document viewer.
 
 October 2008 - January 2012
 Software Developer
@@ -51,11 +42,6 @@ PolicyStat LLC.
 1311 W. 96th St, Suite 250
 Indianapolis, IN 46260
 317-523-7500 (Steve Ehrlich)
-Joined at a very early stage, when there was just the CTO, the CEO, and a single customer.
-When I left, we had over a hundred hospitals as customers.
-Did full-stack development, including server administration on Amazon AWS, Django backend, and frontend with jQuery and CSS
-With the CTO, completely rewrote the code base from PHP to Python/Django.
-Developed an algorithm for diffing structured documents such as HTML.
 
 May 2008 - October 2008
 Web Developer
