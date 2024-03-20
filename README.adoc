@@ -1,5 +1,7 @@
-= Christian Oudard's Resumé
+:nofooter:
 
+
+= Christian Oudard's Resumé
 
 == Build
 
@@ -8,11 +10,11 @@ To generate HTML and PDF files from the AsciiDoc source, we can use Asciidoctor.
 Install dependencies:
 
 ----
-$ gem install asciidoctor asciidoctor-pdf
+$ gem install asciidoctor-pdf rubyzip
 ----
 
-Run the build script:
+Build the PDF:
 
 ----
-$ ./build.sh
+$ ./build.rb
 ----

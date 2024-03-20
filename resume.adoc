@@ -1,6 +1,5 @@
-:stylesheet: styles.css
-:pdf-theme: theme.yml
 :nofooter:
+:pdf-theme: theme.yml
 
 
 = Christian Oudard
@@ -23,6 +22,9 @@ technologists.
 I've worked in a wide variety of fields, including game development, graphics
 programming, server administration, databases, web frontend, cryptography, and
 financial analysis.
+
+
+== Skills
 
 Some of my favorite tools and technologies are:
 

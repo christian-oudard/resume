@@ -1,58 +1,22 @@
 extends: default
-
 font:
-  family: Garamond
-  size: 11
-
-page:
-  layout: portrait
-  margin: [0.75in, 1in, 0.75in, 1in]
-
+  catalog:
+    Garamond:
+      normal: eb-garamond-v27-latin-regular.ttf
+      italic: eb-garamond-v27-latin-italic.ttf
+      bold: eb-garamond-v27-latin-600.ttf
 base:
-  font-color: #333333
-  line-height: 1.6
-  font-size: 11
-
-heading:
-  font-color: #1c3d6b
-
+  text_align: left
+  font_color: 333333
+  font_family: Garamond
+  font_size: 11
 link:
-  font-color: #1c3d6b
-
+  font_color: 335588
 list:
-  indent: 1.5
-
-footer:
-  height: 0.5in
-  line-height: 1
-  recto:
-    right:
-      content: '{page-number}'
-  verso:
-    left:
-      content: '{page-number}'
-
-role:
-  lead:
-    font-size: 1.25em
-    font-color: #666666
-
-admonition:
-  label:
-    text-transform: uppercase
-    font-style: bold
-
-rule:
-  width: 100%
-  border-color: #cccccc
-  border-width: 0.5
-
-thematic-break:
-  border-color: #cccccc
-  border-width: 0.5
-
-block:
-  margin-bottom: 1
-
-prose:
-  margin-bottom: 1
+  item_spacing: 4
+heading:
+  h1_font_size: 28
+  h1_margin_bottom: 20
+  h2_font_size: 20
+  h3_font_size: 16
+  h3_margin_bottom: 2
