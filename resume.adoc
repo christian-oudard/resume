@@ -1,13 +1,23 @@
 = Christian Oudard
 
-http://github.com/christian-oudard/
-ChristianOudard@pm.me
+*ChristianOudard@pm.me* +
+*https://github.com/christian-oudard[github.com/christian-oudard]*
 
-It turns out that if you really understand something well, you can teach a computer to do it. This has been a source of endless fascination for me throughout my life, from the first time I taught my TI-86 calculator to play chess in highschool.
+It turns out that if you really understand something well, you can teach a
+computer to do it. This has been a source of endless fascination for me
+throughout my life, from the first time I taught my TI-86 calculator to play
+chess in highschool.
 
-For me it all starts with getting a precise understanding of what needs to happen. I'm a great communicator and I thrive in collaboration. My code is well organized and easy to read. In a team context, I'm often serving as the translator between the worlds of technology and business, making technical realities clear for strategic planning, and business intentions clear for the technologists.
+For me it all starts with getting a precise understanding of what needs to
+happen. I'm a great communicator and I thrive in collaboration. My code is well
+organized and easy to read. In a team context, I'm often serving as the
+translator between the worlds of technology and business, making technical
+realities clear for strategic planning, and business intentions clear for the
+technologists.
 
-I've worked in a wide variety of fields, including game development, graphics programming, server administration, databases, web frontend, cryptography, and financial analysis.
+I've worked in a wide variety of fields, including game development, graphics
+programming, server administration, databases, web frontend, cryptography, and
+financial analysis.
 
 Some of my favorite tools and technologies are:
 
@@ -28,156 +38,195 @@ Some of my favorite tools and technologies are:
 
 === Software Consultant, RHS Financial
 
-November 2017 - Present
+_November 2017 - Present_
 
 4171 24th St. St #101 San Francisco, CA 94114
 
-Contacts: Colby Davis, Risley Sams
+*Contacts*: Colby Davis, Risley Sams +
+*Technologies*: Python, CVXPY, Postgres, Google Cloud, Pandas, FIX protocol
 
-Technologies: Python, CVXPY, Postgres, Google Cloud, Pandas, FIX protocol
-
-I and the lead quantitative analyst have built a sophisticated portfolio optimization and live trading system. The automation I created reduced his rebalance time per-client from a tedious 2-hour Excel process to a convenient ten minutes. We use convex optimization to automate rebalancing of investments for over 200 clients, and manage their trades on the NYSE via the FIX protocol.
+I have built a sophisticated portfolio optimization and live trading system,
+with the lead quantitative analyst. The automation I created reduced his
+rebalance time per-client from a tedious 2-hour Excel process to a convenient
+ten minutes. We use convex optimization to automate rebalancing of investments
+for over 200 clients, and manage their trades on the NYSE via the FIX protocol.
 
 
 === Senior Software Engineer, MobileCoin Inc.
 
-May 2021 - October 2023
+_May 2021 - October 2023_
 
 275 8th Street San Francisco, CA 94103
 
-Contacts: Sara Drakeley, James Cape
+*Contacts*: Sara Drakeley, James Cape +
+*Technologies*: Rust, Python, Elliptic Curve Cryptography, gRPC, SQLite, SQLCipher, Intel SGX
 
-Technologies: Rust, Python, Elliptic Curve Cryptography, gRPC, SQLite, SQLCipher, Intel SGX
-
-As a member of the core blockchain team, I worked with a Rust codebase doing high security cryptographic calculations, with over a billion dollars in wealth depending on it. The most safety critical portions of the code communicate in a decentralized consensus network, via secure enclaves. I specialized in the API interface and encrypted database for cryptocurrency exchanges. All the code I wrote here was open-source, so you can see my contributions here: https://github.com/mobilecoinofficial/full-service.
+As a member of the core blockchain team, I worked with a Rust codebase doing
+high security cryptographic calculations, with over a billion dollars in wealth
+depending on it. The most safety critical portions of the code communicate in a
+decentralized consensus network, via secure enclaves. I specialized in the API
+interface and encrypted database for cryptocurrency exchanges. All the code I
+wrote here was open-source, so you can see my contributions here:
+https://github.com/mobilecoinofficial/full-service[github.com/mobilecoinofficial/full-service].
 
 
 === Engineer, Bonsai AI
 
-March 2017 - October 2017 +
+_March 2017 - October 2017_
 
-2150 Shattuck Ave #1100, Berkeley, CA 94704 +
+2150 Shattuck Ave #1100, Berkeley, CA 94704
 
-Contacts: Tod Frye, Ken Sedgwick, Matthew Haigh
+*Contacts*: Tod Frye, Ken Sedgwick, Matthew Haigh +
+*Technologies*: Python, Django, Docker, TensorFlow
 
-Technologies: Python, Django, Docker, TensorFlow
-
-I was a member of the backend engineering team, building an ML training and inference service. It was based on a domain specific language to make ML programming more accessible. Here I learned a great deal about optimization and reinforcement learning theory, and helped implement new techniques from our research team.
+I was a member of the backend engineering team, building an ML training and
+inference service. It was based on a domain specific language to make ML
+programming more accessible. Here I learned a great deal about optimization and
+reinforcement learning theory, and helped implement new techniques from our
+research team.
 
 
 === Data Engineer, Disqus
 
-May 2016 - December 2016
+_May 2016 - December 2016_
 
 301 Howard street suite 300 San Francisco, CA 94105
 
-Contacts: Adam Hitchcock, Phillip Pham, Jason Yan
+*Contacts*: Adam Hitchcock, Phillip Pham, Jason Yan +
+*Technologies*: Postgres, SQL, Python, Django, JavaScript, React, AWS, Apache
+    Kafka, Apache Storm, Apache Hive, Amazon Redshift
 
-Technologies: Postgres, SQL, Python, Django, JavaScript, React, AWS, Apache Kafka, Apache Storm, Apache Hive, Amazon Redshift
-
-I worked here on the data team, writing and managing batch database jobs to transform large data sets coming from their 500 million monthly unique users. Our three-person data team was responsible for an analytics pipeline handling tens of millions of events per day. My role was fairly flexible, and I also helped with the Django backend and the React frontend.
+I worked here on the data team, writing and managing batch database jobs to
+transform large data sets coming from their 500 million monthly unique users.
+Our three-person data team was responsible for an analytics pipeline handling
+tens of millions of events per day. My role was fairly flexible, and I also
+helped with the Django backend and the React frontend.
 
 
 === Engineer, Infer inc.
 
-July 2015 - September 2015
+_July 2015 - September 2015_
 
 444 Castro Street, Ste. 109 Mountain View, CA 94041
 
-Contact: Richard Mehlinger
+*Contact*: Richard Mehlinger +
+*Technologies*: Python, Scikit-learn, CoffeeScript
 
-Technologies: Python, Scikit-learn, CoffeeScript
-
-Infer was a company which helped optimize sales pipelines via a Salesforce plugin. We used machine learning to help sales teams prioritize which contacts were most likely to convert into customers. My responsibility here was mainly to write an internal user interface for the data engineers to develop their ML models.
+Infer was a company which helped optimize sales pipelines via a Salesforce
+plugin. We used machine learning to help sales teams prioritize which contacts
+were most likely to convert into customers. My responsibility here was mainly
+to write an internal user interface for the data engineers to develop their ML
+models.
 
 
 === Senior Backend Engineer, TinyCo
 
-September 2012 - January 2014
+_September 2012 - January 2014_
 
 225 Bush Street, 19th floor San Francisco, CA 94104
 
-Contacts: Karan P Singh, Robert Kotredes
+*Contacts*: Karan P Singh, Robert Kotredes +
+*Technologies*: Python, Django, Tornado, MySQL
 
-Technologies: Python, Django, Tornado, MySQL
-
-TinyCo creates free-to-play mobile games, focusing on cute characters and time-locked game mechanics. I was working on the backend team. In collaboration with the mobile frontend team, we released several games a year, each one requiring its own backend code and database deployment. Here I coded complete rewrites of several major systems, such as the code deployment system and game configuration server. I also instituted the usage of better practices for unittesting and database migrations.
+TinyCo creates free-to-play mobile games, focusing on cute characters and
+time-locked game mechanics. I was working on the backend team. In collaboration
+with the mobile frontend team, we released several games a year, each one
+requiring its own backend code and database deployment. Here I coded complete
+rewrites of several major systems, such as the code deployment system and game
+configuration server. I also instituted the usage of better practices for
+unittesting and database migrations.
 
 
 === Engineer, Scribd Inc.
 
-January 2012 - August 2012
+_January 2012 - August 2012_
 
 539 Bryant St, Suite 200 San Francisco, CA 94107
 
-Contacts: Jennifer Lin, Jared Friedman
+*Contacts*: Jennifer Lin, Jared Friedman +
+*Technologies*: Ruby on Rails, Javascript, HTML/CSS
 
-Technologies: Ruby on Rails, Javascript, HTML/CSS
-
-Working as a full stack engineer, my responsibilities at Scribd included the Scribd Developer API, internal mobile client API, and the embedded document viewer.
+Working as a full stack engineer, my responsibilities at Scribd included the
+Scribd Developer API, internal mobile client API, and the embedded document
+viewer.
 
 
 === Lead Software Developer, PolicyStat, LLC
 
-October 2008 - January 2012
+_October 2008 - January 2012_
 
 1311 W. 96th St, Suite 250 Indianapolis, IN 46260
 
-Contacts: Wes Winham, Steve Ehrlich
+*Contacts*: Wes Winham, Steve Ehrlich +
+*Technologies*: Python, Django, AWS, HTML/CSS, jQuery, Redis, MySQL
 
-Technologies: Python, Django, AWS, HTML/CSS, jQuery, Redis, MySQL
-
-I joined PolicyStat at a very early stage, when there was just the CEO, the CTO, and myself. Over my time there, our client base grew from two hospitals to over a hundred. I did a little of everything here, including server administration, Django backend, a responsive web frontend, and some help with pitch decks. Notably, I developed an algorithm for diffing structured documents in HTML, which you can see here: https://github.com/christian-oudard/htmltreediff
+I joined PolicyStat at a very early stage, when there was just the CEO, the
+CTO, and myself. Over my time there, our client base grew from two hospitals to
+over a hundred. I did a little of everything here, including server
+administration, Django backend, a responsive web frontend, and some help with
+pitch decks. Notably, I developed an algorithm for diffing structured documents
+in HTML, which you can see here:
+https://github.com/christian-oudard/htmltreediff
 
 
 === Web Developer, BluegrassNet Development
 
-May 2008 - October 2008
+_May 2008 - October 2008_
 
 321 E Breckinridge St Louisville, KY 40203
 
-Technologies: PHP
+*Technologies*: PHP
 
-My first job out of college, it was a small custom web development shop in PHP. We were making a trucking logistics platform for Tennessee Steel Haulers.
+My first job out of college, it was a small custom web development shop in PHP.
+We were making a trucking logistics platform for Tennessee Steel Haulers.
 
 
 === Software Engineering Intern, Flight Data Simulator Project
 
-March 2008 - May 2008
+_March 2008 - May 2008_
 
 Speed School Computer Science Department, University of Louisville
 
-Contact: Ming Ouyang
+*Contact*: Ming Ouyang +
+*Technologies*: Python, PyOpenGL
 
-Technologies: Python, PyOpenGL
+This internship involved writing 3D renderings of flight landing approach
+paths.
 
-This internship involved writing 3D renderings of flight landing approach paths.
 
+=== Software Engineering Intern, CMTS Project
 
-=== Software Engineering Intern, Concept Modeling Tool Suite
-
-October 2006 - March 2008
+_October 2006 - March 2008_
 
 Speed School Mechanical Engineering Department, University of Louisville +
 
-Technologies: C#, DirectX
+*Technologies*: C#, DirectX
 
-This project, in collaboration with the U.S. Army, aimed to design soldier transport vehicles with reduced noise, vibration, and harshness characteristics. I wrote the 3D user interface to the vehicle modeling program we developed. The output was a vibration analysis produced by finite element modeling. Read all about the project in the dissertation of one of our researchers: https://ir.library.louisville.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1816&context=etd
+This project, the "Concept Modeling Tool Suite", was a collaboration with the
+U.S. Army. It was aimed at designign soldier transport vehicles with reduced
+noise, vibration, and harshness characteristics. I wrote the 3D user interface
+to the vehicle modeling program we developed. The output was a vibration
+analysis produced by finite element modeling. Read all about the project in the
+dissertation of one of our researchers:
+https://ir.library.louisville.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1816&context=etd
 
 
 === Software Engineering Intern, Alcoa Louisville Foil Plant
 
-August 2005 - August 2006
+_August 2005 - August 2006_
 
-Technologies: ASP.net, Microsoft Access
+*Technologies*: ASP.net, Microsoft Access
 
-My work at the aluminum foil plant was to create data reporting pages for internal usage. I created an up-to-the-minute reporting system showing the readings from the foil mills, which roll sheet aluminum down to the thickness of kitchen foil.
+My work at the aluminum foil plant was to create data reporting pages for
+internal usage. I created an up-to-the-minute reporting system showing the
+readings from the foil mills, which roll sheet aluminum down to the thickness
+of kitchen foil.
 
 
 == Education
 
 === Bachelor of Computer Science
 
-Fall 2004 - Spring 2008
+_Fall 2004 - Spring 2008_
 
 University of Louisville, Speed School of Engineering
