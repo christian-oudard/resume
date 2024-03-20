@@ -3,6 +3,9 @@
 
 = Christian Oudard's Resumé
 
+https://raw.githubusercontent.com/christian-oudard/resume/master/christian_oudard_resume.pdf[PDF Download]
+
+
 == Build
 
 To generate HTML and PDF files from the AsciiDoc source, we can use Asciidoctor.
