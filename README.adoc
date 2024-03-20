@@ -1,5 +1,6 @@
 = Christian Oudard's Resumé
 
+
 == Build
 
 To generate HTML and PDF files from the AsciiDoc source, we can use Asciidoctor.

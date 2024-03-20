@@ -1,3 +1,58 @@
 extends: default
-stylesheets:
-  - styles.css
+
+font:
+  family: Garamond
+  size: 11
+
+page:
+  layout: portrait
+  margin: [0.75in, 1in, 0.75in, 1in]
+
+base:
+  font-color: #333333
+  line-height: 1.6
+  font-size: 11
+
+heading:
+  font-color: #1c3d6b
+
+link:
+  font-color: #1c3d6b
+
+list:
+  indent: 1.5
+
+footer:
+  height: 0.5in
+  line-height: 1
+  recto:
+    right:
+      content: '{page-number}'
+  verso:
+    left:
+      content: '{page-number}'
+
+role:
+  lead:
+    font-size: 1.25em
+    font-color: #666666
+
+admonition:
+  label:
+    text-transform: uppercase
+    font-style: bold
+
+rule:
+  width: 100%
+  border-color: #cccccc
+  border-width: 0.5
+
+thematic-break:
+  border-color: #cccccc
+  border-width: 0.5
+
+block:
+  margin-bottom: 1
+
+prose:
+  margin-bottom: 1
