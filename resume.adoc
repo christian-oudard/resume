@@ -1,3 +1,8 @@
+:stylesheet: styles.css
+:pdf-theme: theme.yml
+:nofooter:
+
+
 = Christian Oudard
 
 *ChristianOudard@pm.me* +

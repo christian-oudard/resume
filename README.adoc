@@ -1,0 +1,17 @@
+= Christian Oudard's Resumé
+
+== Build
+
+To generate HTML and PDF files from the AsciiDoc source, we can use Asciidoctor.
+
+Install dependencies:
+
+----
+$ gem install asciidoctor asciidoctor-pdf
+----
+
+Run the build script:
+
+----
+$ ./build.sh
+----
